@@ -11,7 +11,13 @@
 </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>💧 Water Flow Game</title>
+  <title>AquaPath — Paper & Pixel Arcade</title>
+  <meta name="description" content="Guide water from tank to cup by drawing paths — A Paper & Pixel Arcade game.">
+  <meta name="author" content="Paper & Pixel Studio">
+  <meta property="og:title" content="AquaPath — Paper & Pixel Arcade">
+  <meta property="og:description" content="Guide water from tank to cup by drawing paths">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aqua-path.paperandpixel.studio">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -668,16 +674,20 @@ loop();
   .pp-info-panel.open{display:block}
   .pp-info-panel a{display:block;color:rgba(255,255,255,0.6);text-decoration:none;font-family:system-ui,sans-serif;font-size:12px;padding:4px 0;transition:color 0.2s}
   .pp-info-panel a:hover{color:#fff}
-  .pp-info-panel .pp-brand{font-size:11px;color:rgba(255,255,255,0.25);margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.08)}
+  .pp-info-panel .pp-brand{font-size:11px;color:rgba(255,255,255,0.5);margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.08);font-family:system-ui,sans-serif}
 </style>
 <button class="pp-info-btn" onclick="document.querySelector('.pp-info-panel').classList.toggle('open')" aria-label="Legal information">i</button>
 <div class="pp-info-panel">
-  <div class="pp-brand">Paper & Pixel Pte. Ltd.</div>
-  <a href="https://paperandpixel.studio/privacy-policy.html" target="_blank">Privacy Policy</a>
-  <a href="https://paperandpixel.studio/terms-of-service.html" target="_blank">Terms of Service</a>
+  <div class="pp-brand">
+    <img src="https://games.paperandpixel.studio/pp_logo_nav.png" alt="Paper & Pixel" style="height:24px; vertical-align:middle; margin-right:6px; opacity:0.7;">
+    <span>A Paper & Pixel product · Made in Singapore 🇸🇬</span>
+  </div>
+  <a href="https://paperandpixel.studio/privacy-policy.html" target="_blank">Privacy</a>
+  <a href="https://paperandpixel.studio/terms-of-service.html" target="_blank">Terms</a>
   <a href="https://paperandpixel.studio/acceptable-use.html" target="_blank">Acceptable Use</a>
-  <a href="https://paperandpixel.studio/cookie-policy.html" target="_blank">Cookie Policy</a>
-  <a href="https://paperandpixel.studio/returns-policy.html" target="_blank">Returns Policy</a>
+  <a href="https://paperandpixel.studio/cookie-policy.html" target="_blank">Cookies</a>
+  <a href="https://paperandpixel.studio/returns-policy.html" target="_blank">Returns</a>
+  <a href="https://games.paperandpixel.studio" target="_blank">← Back to Arcade</a>
 </div>
 </body>
 </html>
